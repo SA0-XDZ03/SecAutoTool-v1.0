@@ -2,26 +2,28 @@
 This roadmap outlines a structured development plan, where the user selects a security category, then picks a sub-function, and follows an interactive, modular, hierarchical approach. The tool will be built in an object-oriented, scalable, and secure manner.
 
 ## 📍 High-Level Roadmap
-[1] Defensive Security (6 Modules)
-[2] Offensive Security (6 Modules)
-[3] Remote Administration & Automation (4 Modules)
-- Advanced Features (Cross-Platform, Scalability, Stealth, API Integration, Decentralization) - Implemented by default.
-- Each category will be built step-by-step, ensuring a hierarchical menu-driven structure.
+[1] Defensive Security (6 Modules)  
+[2] Offensive Security (6 Modules)  
+[3] Remote Administration & Automation (4 Modules)  
+- Advanced Features (Cross-Platform, Scalability, Stealth, API Integration, Decentralization) - Implemented by default.  
+- Each category will be built step-by-step, ensuring a hierarchical menu-driven structure.  
 
+---
 ### 🛠️ Step 1: Building the User Selection System
 ### User Flow
-Select Category
-[1] Defensive Security
-[2] Offensive Security
-[3] Remote Administration & Automation
+Select Category  
+[1] Defensive Security  
+[2] Offensive Security  
+[3] Remote Administration & Automation  
 
-Select a Sub-Function
-- Example: If the user selects [1] Defensive Security, a second menu appears with [1-6] Defensive Security modules.
-- The user chooses one, inputs required parameters, and the system executes it.
+Select a Sub-Function  
+- Example: If the user selects [1] Defensive Security, a second menu appears with [1-6] Defensive Security modules.  
+- The user chooses one, inputs required parameters, and the system executes it.  
 
-### Process Execution
-- Each function will be built as an independent module with logging, error handling, and secure communication.
+### Process Execution  
+- Each function will be built as an independent module with logging, error handling, and secure communication.  
 
+---
 ### 📌 Step-by-Step Roadmap for Implementation
 | Step | Category   | Function Name                                 | Description                                       | Dependencies            |
 |------|------------|-----------------------------------------------|---------------------------------------------------|-------------------------|
@@ -49,21 +51,23 @@ Select a Sub-Function
 | ✅ 22 | Feature    | apiIntegration()                              | Implement API-based communication.                | Flask, FastAPI          |
 | ✅ 23 | Feature    | decentralizedComm()                           | P2P communication without a central server.       | WebRTC, P2P             |
 
+---
 ### 📌 Step 1: Implementing User Selection System
-- The first task is to allow the user to select a category and display corresponding functions.
-### User Flow
-Welcome to the Security & Automation Tool!
-[1] Defensive Security
-[2] Offensive Security
-[3] Remote Administration & Automation
-[4] Exit
-
-If the user selects [1] Defensive Security, show:
-[1] Real-Time Secure Chat
-[2] Intrusion Detection Sensor
-[3] Automated Security Alerting
-[4] File Integrity Monitoring
-[5] Secure Encrypted File Transfer
-[6] Honeypot Deployment
-[7] Back
-Then call the selected function.
+- The first task is to allow the user to select a category and display corresponding functions.  
+### User Flow  
+Welcome to the Security & Automation Tool!  
+[1] Defensive Security  
+[2] Offensive Security  
+[3] Remote Administration & Automation 
+[4] Exit  
+  
+If the user selects [1] Defensive Security, show:  
+[1] Real-Time Secure Chat  
+[2] Intrusion Detection Sensor  
+[3] Automated Security Alerting  
+[4] File Integrity Monitoring  
+[5] Secure Encrypted File Transfer  
+[6] Honeypot Deployment  
+[7] Back  
+Then call the selected function.  
+---
