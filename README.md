@@ -58,9 +58,9 @@ Select a Sub-Function
 Welcome to the Security & Automation Tool!  
 [1] Defensive Security  
 [2] Offensive Security  
-[3] Remote Administration & Automation 
+[3] Remote Administration & Automation  
 [4] Exit  
-  
+
 If the user selects [1] Defensive Security, show:  
 [1] Real-Time Secure Chat  
 [2] Intrusion Detection Sensor  
