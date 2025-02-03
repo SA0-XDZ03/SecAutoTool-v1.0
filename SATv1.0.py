@@ -133,7 +133,7 @@ def secureChat():
                 def handleClient(client):
                     while True:
                         try:
-                            encryptedMessage = client.recv(1024)
+                            encryptedMessage = client.recv(10000)
                             if not encryptedMessage:
                                 break
                             decryptedMessage = cipher.decrypt(encryptedMessage).decode()
